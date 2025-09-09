@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glazed - No Fuss Vehicle Checks</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #0d0d0d;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .container {
+        text-align: center;
+        max-width: 680px;
+        padding: 40px 20px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .app-icon {
+        width: 120px;
+        height: 120px;
+        border-radius: 22.5%;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        font-size: 48px;
+        font-weight: 600;
+        margin: 0 0 10px;
+      }
+      .subtitle {
+        font-size: 24px;
+        font-weight: 400;
+        color: #6e6e73;
+        margin-bottom: 30px;
+      }
+      .app-store-badge {
+        display: inline-block;
+        height: 50px;
+        margin-bottom: 40px;
+      }
+      .features {
+        text-align: left;
+        margin: 0 auto;
+        max-width: 500px;
+      }
+      .feature {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .feature-icon {
+        font-size: 24px;
+        margin-right: 15px;
+        width: 30px;
+      }
+      footer {
+        margin-top: auto;
+        padding: 20px;
+        font-size: 14px;
+        color: #86868b;
+      }
+      footer a {
+        color: #007aff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- IMPORTANT: Replace 'app-icon.png' with the actual path to your app icon image -->
+      <img src="app-icon.png" alt="Glazed App Icon" class="app-icon" />
+
+      <h1>Glazed</h1>
+      <p class="subtitle">No Fuss Vehicle Checks</p>
+
+      <!-- IMPORTANT: Replace '#' with your actual App Store link once you have it -->
+      <a href="#" class="app-store-link">
+        <img
+          src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+          alt="Download on the App Store"
+          class="app-store-badge"
+        />
+      </a>
+
+      <!-- Start of updated features section -->
+      <div class="features">
+        <div class="feature">
+          <span class="feature-icon">📸</span>
+          <p>
+            <strong>SCAN WITH YOUR CAMERA:</strong> Point your camera at any UK
+            number plate to get started. No more typing.
+          </p>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">📜</span>
+          <p>
+            <strong>CHECK FULL MOT HISTORY:</strong> Review pass/fail records
+            and check all advisory notes.
+          </p>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">🛣️</span>
+          <p>
+            <strong>VERIFY MILEAGE:</strong> Check the mileage history to spot
+            inconsistencies.
+          </p>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">💰</span>
+          <p>
+            <strong>GET VALUE & ROAD TAX:</strong> Understand the approximate
+            market value and current road tax costs before you commit.
+          </p>
+        </div>
+      </div>
+      <!-- End of updated features section -->
+
+      <footer>
+        <!-- IMPORTANT: Create these files and link to them -->
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="terms.html">Terms of Service</a> |
+        <a href="mailto:support@linos.dev">Contact Us</a>
+        <p style="margin-top: 10px">
+          Contains public sector information licensed under the Open Government
+          Licence v3.0.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
